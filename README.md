@@ -17,7 +17,7 @@
 
 ## 使用
 
-1. 把游戏安装目录下的 `Assets/Data/Characters/Heroes/` 整个复制到 `Assets/Heroes/`
+1. 把MODDING TOOL安装目录下的 `Assets/Data/Characters/Heroes/` 整个复制到 `Assets/Heroes/`
 2. 打开 Unity 工程
 3. 菜单 `Viewer → Setup All Heroes`（扫描角色 + 修材质 shader）
 4. 菜单 `Viewer → Build EXE`
@@ -25,7 +25,7 @@
 
 ## 说明
 
-游戏资源（模型 FBX、贴图、动画）不包含在本仓库中，需从自己的游戏安装目录提取。
+游戏资源（模型 FBX、贴图、动画）不包含在本仓库中，需从自己的MODDING TOOL安装目录提取。
 脚本与场景配置均在此仓库内，可直接复用。
 
 ## 实现要点
