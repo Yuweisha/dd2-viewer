@@ -1,4 +1,0 @@
-materials fixed: 2
-fbx=True ctrl=True
-scene saved: Assets/Scenes/Viewer.unity
-build scenes set
