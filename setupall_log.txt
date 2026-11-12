@@ -1,0 +1,19 @@
+materials fixed: 0
+  abomination_beast: model=mdl_abomination_beast ctrl=abomination_beast_animation_controller clips=28
+  abomination_human: model=mdl_abomination_human ctrl=abomination_human_animation_controller clips=36
+  bounty_hunter: model=mdl_bounty_hunter ctrl=bounty_hunter_animation_controller clips=41
+  crusader: model=mdl_crusader ctrl=crusader_animation_controller clips=39
+  duelist: model=mdl_duelist ctrl=duelist_animation_controller clips=44
+  flagellant: model=mdl_flagellant ctrl=flagellant_animation_controller clips=36
+  grave_robber: model=mdl_grave_robber ctrl=grave_robber_animation_controller clips=44
+  hellion: model=mdl_hellion ctrl=hellion_animation_controller clips=42
+  highwayman: model=mdl_highwayman ctrl=highwayman_animation_controller clips=46
+  jester: model=mdl_jester@jester_attack_knife_antic_v2_anm ctrl=jester_animation_controller clips=35
+  leper: model=mdl_leper ctrl=leper_animation_controller clips=41
+  man_at_arms: model=mdl_man_at_arms ctrl=man_at_arms_AnimationController clips=37
+  occultist: model=mdl_occultist ctrl=occultist_AnimationController clips=35
+  plague_doctor: model=mdl_plague_doctor ctrl=plague_doctor_AnimatorController clips=35
+  runaway: model=mdl_runaway ctrl=runaway_AnimationController clips=42
+  vestal: model=mdl_vestal ctrl=vestal_animation_controller clips=34
+heroes: 16
+scene updated: Assets/Scenes/Viewer.unity

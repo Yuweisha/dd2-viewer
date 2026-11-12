@@ -1,0 +1,765 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-Schwarz" at "2026-11-12T17:52:55.6174541Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.14.1+d093dab
+  Session Id:              d5705fc58eec40a2ad4b6474a1262773
+  Correlation Id:          573531c00e5a42eae94ac1f6f62bae32
+  External correlation Id: 1739202794389180507
+  Machine Id:              09g7Y4uJmfATLI02a2Efo9j+cAQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Schwarz" (connect: 0.00s, validation: 0.01s, handshake: 0.91s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-Schwarz-notifications" at "2026-11-12T17:52:56.5378424Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit IoTEnterpriseS' Language: 'zh' Physical Memory: 40594 MB
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "F4-GFU7-C4BY-KW75-B6XK-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.16f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:/Users/Schwarz/projects/dd2-viewer
+-executeMethod
+SetupViewer.Run
+-logFile
+C:/Users/Schwarz/projects/dd2-viewer/setup.log
+Successfully changed project path to: C:/Users/Schwarz/projects/dd2-viewer
+C:/Users/Schwarz/projects/dd2-viewer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46180] Host "[IP] 192.168.1.5 [Port] 55505 [Flags] 2 [Guid] 2955967790 [EditorId] 2955967790 [Version] 1048832 [Id] WindowsEditor(7,SchwarzComputer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [46180] Host "[IP] 192.168.1.5 [Port] 55505 [Flags] 2 [Guid] 2955967790 [EditorId] 2955967790 [Version] 1048832 [Id] WindowsEditor(7,SchwarzComputer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-47484" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlements
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 32 packages:
+  Built-in packages:
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Schwarz\projects\dd2-viewer\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Schwarz/projects/dd2-viewer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.16.1091
+[Licensing::Client] Successfully resolved entitlements
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003024 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 714ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlements
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Schwarz\projects\dd2-viewer\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 53.1892ms
+Starting: C:\Program Files\Unity 2022.3.16f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Schwarz/projects/dd2-viewer
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s100ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.06 seconds), 0 items updated, 1 evaluatedStarting: C:\Program Files\Unity 2022.3.16f1\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity 2022.3.16f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+
+WorkingDir: C:/Users/Schwarz/projects/dd2-viewer
+ExitCode: 0 Duration: 0s235ms
+Starting: C:\Program Files\Unity 2022.3.16f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Schwarz/projects/dd2-viewer
+ExitCode: 0 Duration: 3s380ms
+Finished compiling graph: 106 nodes, 392 flattened edges (382 ToBuild, 4 ToUse), maximum node priority 18
+[  1/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_B0449FDA59DCAADE.mvfrm
+[  2/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_9EA1D14A452BD326.mvfrm
+[  3/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_7B02608C463F28EE.mvfrm
+[  4/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_F46699686D5992C9.mvfrm
+[  5/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_74F5261829951C03.mvfrm
+[  6/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_2145B8A52A66E0D2.mvfrm
+[  7/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_73E8DBCA996BDA31.mvfrm
+[  8/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_B3A509201EB7E911.mvfrm
+[  9/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_4A989B513D51F5AC.mvfrm
+[ 10/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_D5A81C5E9628F205.mvfrm
+[ 11/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_6336F045B790F071.mvfrm
+[ 12/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_305B5EFA2BED7408.mvfrm
+[ 13/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_C1A7D663E41F456B.mvfrm
+[ 14/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_A37A0F99F985DC9C.mvfrm
+[ 15/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_8ACA87C3198F6ACD.mvfrm
+[ 16/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_AB581C505F379B00.mvfrm
+[ 17/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_934BED97DD9221E7.mvfrm
+[ 18/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_F440E76649D224C6.mvfrm
+[ 19/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_389CC54E0B19B0B6.mvfrm
+[ 20/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_51CF3FB0329A334A.mvfrm
+[ 21/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_338267A656B10AD5.mvfrm
+[ 22/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_E2A18276108500D5.mvfrm
+[ 23/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_CBEFCC6538754204.mvfrm
+[ 24/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_769743727405E296.mvfrm
+[ 25/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_F9DC3F1CA4563853.mvfrm
+[ 26/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_012343FE29CC2ACE.mvfrm
+[ 27/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_6096068D02241134.mvfrm
+[ 28/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_05E3EBDBA402D49B.mvfrm
+[ 29/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_5174CA4F33FD2F60.mvfrm
+[ 30/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_0C07C5F49E4C9D83.mvfrm
+[ 31/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_09EBEF5443220160.mvfrm
+[ 32/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_6ED5AFDE4264BFF3.mvfrm
+[ 33/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_E81D8DB7F50F4DFA.mvfrm
+[ 34/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_297EA20A5A12685A.mvfrm
+[ 35/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_7485E5AD108107A4.mvfrm
+[ 36/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_E1966B98CA8EAF3C.mvfrm
+[ 37/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_32500258A118D7F1.mvfrm
+[ 38/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_6D0B5E73868FBC7A.mvfrm
+[ 39/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_E3DF2C4FF1E31203.mvfrm
+[ 40/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_7931C5EE239B29F0.mvfrm
+[ 41/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_D4BAA3DA9ECCA5F5.mvfrm
+[ 42/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_F80F8F915379A7E7.mvfrm
+[ 43/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_32F27CAAAE31DF01.mvfrm
+[ 44/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_A5F49ED1C2EA6BA6.mvfrm
+[ 45/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_4B4673A2594987AF.mvfrm
+[ 46/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_52C4E304B0D1738C.mvfrm
+[ 47/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_A9A2A0EC8139D507.mvfrm
+[ 48/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_F32005052A496828.mvfrm
+[ 49/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_BD40929C7516F8B2.mvfrm
+[ 50/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_90209231A4EEE83E.mvfrm
+[ 51/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_315EC61D44DD5B4D.mvfrm
+[ 52/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_31D5598587D5DD64.mvfrm
+[ 53/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_6AA52E978A1A363D.mvfrm
+[ 54/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_ECC45F9612DDA3FF.mvfrm
+[ 55/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_311FC1E6509FD648.mvfrm
+[ 56/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_BEAE374C62D7133C.mvfrm
+[ 57/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_C4C36046DF250C2B.mvfrm
+[ 58/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_AAD66A6E90815CE8.mvfrm
+[ 59/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_21E35FFC4BBC7056.mvfrm
+[ 60/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_0B9E5ABE81CCA261.mvfrm
+[ 61/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_FA6E2E5D64B03975.mvfrm
+[ 62/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_9005535E022B9476.mvfrm
+[ 63/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_C0D9CBCE90EFE11B.mvfrm
+[ 64/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_53E9FF7D88DA6DB7.mvfrm
+[ 65/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_DEC3103919C451D6.mvfrm
+[ 66/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_C62B2D380350B23C.mvfrm
+[ 67/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_B5F1624BC997B862.mvfrm
+[ 68/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_1CFD126F4C5BA37E.mvfrm
+[ 69/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_B2A7A890C7124EE4.mvfrm
+[ 70/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_F2D2F793B923E34F.mvfrm
+[ 71/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_ED36F4E076C25E3F.mvfrm
+[ 72/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_19914F4FF88FA6F7.mvfrm
+[ 73/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2
+[ 74/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt
+[ 75/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp
+[ 76/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[ 77/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_2CD4D6B4433B1910.mvfrm
+[ 78/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_864E97E59CA57F5B.mvfrm
+[ 79/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_437AA24103F1F0A9.mvfrm
+[ 80/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2
+[ 81/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt
+[ 82/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp
+[ 83/103    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 84/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_65B809433BEAA385.mvfrm
+[ 85/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_736211B0E61DBA47.mvfrm
+[ 86/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_D1473CE145A1FAC3.mvfrm
+[ 87/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_E76F206FF2CB34AF.mvfrm
+[ 88/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_C97DD3349C4D9537.mvfrm
+[ 89/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_7336827E079C1089.mvfrm
+[ 90/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_102D1672DE79ECAE.mvfrm
+[ 91/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_0B5C2240BC8DF97D.mvfrm
+[ 92/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_AB1F26B74714A98F.mvfrm
+[ 93/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_5345A856DFD753AA.mvfrm
+[ 94/103    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_A9BD8AA1E34CAF85.mvfrm
+[ 95/103    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm
+[ 96/103    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm
+[ 97/103    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[ 98/103    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[ 99/103    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[100/103    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[101/103    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[102/103    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (3.34 seconds), 102 items updated, 103 evaluated
+AssetDatabase: script compilation time: 4.239769s
+Begin MonoManager ReloadAssembly
+Total cache size 41317884
+Total cache size after purge 41317884
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Start importing Assets/Editor using Guid(c8ba5c9ef623a084c8a6e352fb5ad2c3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9ca18fc7db33b514f52d2604cd1a5066') in 0.017953 seconds
+Start importing Assets/Heroes using Guid(aa6d6a94391a9ce4183fe60aa4e75683) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd0597700c2b2b7726c95f77e42119346') in 0.001209 seconds
+Start importing Assets/Scripts using Guid(5b1cc29bd111d074f95f45f732563404) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '32258e454689f20a4cd84c1e6e6a9d8f') in 0.000961 seconds
+Start importing Assets/Heroes/leper using Guid(e6bbdd3968c2c2247a93f82725b334c1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '459707d12b6292917de9d8dc90ab0f6e') in 0.000902 seconds
+Start importing Assets/Heroes/leper/animation using Guid(1196345bcc851214cbfadd3efa9671de) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '78188d6c575e3207d635758132938edf') in 0.001014 seconds
+Start importing Assets/Heroes/leper/materials using Guid(9dc4ec783cf47314bac20907f6da5dfe) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '709aa93f66cbaf8ca3c317102bc9049e') in 0.001049 seconds
+Start importing Assets/Editor/SetupViewer.cs using Guid(5245ea2aef61c5645aa4d8b2cb4d01af) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9b5e3fd4d47636101c4d1db77e40a7d2') in 0.002590 seconds
+Start importing Assets/Scripts/ViewerMain.cs using Guid(b85a9a54ac3eefc49a4d6c2c63c5840a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f9559ef251c40504f0475283b9e41864') in 0.002545 seconds
+Start importing Assets/Scripts/OrbitCamera.cs using Guid(5ed0d88d4f00e34498b4cf4a9850a923) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd48441b7847c91a5fafdd0534c60ec6d') in 0.001487 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.365 seconds
+Domain Reload Profiling: 733ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Start importing Assets/Heroes/leper/materials/tex_leper_wpn_sword_col.png using Guid(006d0410a04ebf84697fda6cd6fb27fd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '55ebb74098810f53363681a0540d8af9') in 0.059533 seconds
+Start importing Assets/Heroes/leper/materials/tex_leper_col.png using Guid(1175cac510498424dabc1b0b3b69aeb2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4caeb5f333465750b843c857c4976e0c') in 0.767258 seconds
+Start importing Assets/Heroes/leper/materials/tex_leper_ink.png using Guid(31363826d60e5ee47a853d0b39b6a10c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6d1d4e1e30836aa3e2fa38effd376ee3') in 0.507771 seconds
+Start importing Assets/Heroes/leper/materials/tex_leper_wpn_sword_ink.png using Guid(14cc2ab7914ab634c95ecc8ec3ca4b9c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '500b0cbad40fedf7407557446e37018e') in 0.051797 seconds
+Start importing Assets/Heroes/leper/materials/mat_leper.mat using Guid(9be132c6538c24e42bb5c66a55949d8f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '632e562c2ea27a547793212b3305f735') in 0.002131 seconds
+Start importing Assets/Heroes/leper/materials/mat_leper_wpn_sword.mat using Guid(6f240acdd5799a0479a646a09e69ed24) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6236d6510a1f8adb2b9d89ee777a4880') in 0.002464 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_idle_A_anm.fbx using Guid(7015033e89b07e1459714748b084ea9c) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: 'be949decbb0860c7a1fee868fd31d5bb') in 0.166537 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_slice_antic_anm.fbx using Guid(90dc258bb5035b74d9284a062e180fb2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.585771%;
+ -> (artifact id: 'ffa482ea63ee9fae8eae8d167e6b5ee5') in 0.190405 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_2hand_chop_action_anm.fbx using Guid(f0e61fe198d3fd74db08d642124e787a) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.165596%;
+ -> (artifact id: '9729c69179ccc02e9a7c33fecabae4a8') in 0.156875 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_idle_C_anm.fbx using Guid(1117001143c9bcc458871e322bc0a7f4) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.000000%;
+ -> (artifact id: 'ff80c99953f5c52f7702350c917d147d') in 0.155373 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_chop_action_anm.fbx using Guid(215061bfe3ed1b0498f6dc1a0e77301b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.222221%;
+ -> (artifact id: '22be8c34f7026aaa45eb43624f82add4') in 0.181754 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_buff_intraspection_action_anm.fbx using Guid(a11521e04d23d234997b59bcb3ce1c5d) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.197802%;
+ -> (artifact id: 'c9213da3626f00f94c56bf23ae054d8b') in 0.155811 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_impact_action_anm.fbx using Guid(a1f6c88406690264d8686450fa36391b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 8.000000%;
+ -> (artifact id: '1a75940b1dc87e1958a726c9c78af1bc') in 0.234555 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_idle_v2_drawnback_anm.fbx using Guid(b162a78e1a428e445a0e51aeef78832f) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.182101%;
+ -> (artifact id: '8760e00b15d3a4d6c566b2da074e3fac') in 0.171158 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meditate_recover_anm.fbx using Guid(b172d67235b8e5f46b3ef3bf554a0447) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 10.471161%;
+ -> (artifact id: '8a719c587e2855a512405fea738b6f32') in 0.168703 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_slice_2handed_action_anm.fbx using Guid(e1815e747d6a58244b4d4828647cd51f) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: '82b36c9db59f31185651ebe07077e9f0') in 0.164355 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_deathsdoor_idle.fbx using Guid(62b07a06551a1a74d95d20e36684c17b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.305583%;
+ -> (artifact id: 'd5a06b1989e233d38a56f6a320115e98') in 0.183785 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_recover_anm.fbx using Guid(72744141ee1e5804fa895133c0b68f32) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 10.020779%;
+ -> (artifact id: 'f6eb05af279866ab4c0f20c53b1130c1') in 0.184094 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_antic_heavy_anm.fbx using Guid(a29e9d92f814fd54284975e02e667970) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.071428%;
+ -> (artifact id: '9851c5c6166b53b9e175d0b94988c6be') in 0.154444 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_dodge_action.fbx using Guid(c2535b1ad6da5ab47939f9aaf77d9a9e) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.197802%;
+ -> (artifact id: 'b03d5c60da1deb018d32345dd72a64b7') in 0.152625 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_idle_anm.fbx using Guid(e29323a85046df74eb6adb1244f1caef) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.139265%;
+ -> (artifact id: '53805c33c32626a762d47bb3d7f9f92e') in 0.139350 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_buff_intraspection_idle_anm.fbx using Guid(930cbab55a48f3648aacc6d786813219) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.537406%;
+ -> (artifact id: '54033bc4fa082ac9d055f23d979bec2d') in 0.136625 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_bark_negative.fbx using Guid(a3a965815a753474b9f32993bcce4a54) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.015873%;
+ -> (artifact id: 'd393d3494612996e40967386649fd8a2') in 0.141113 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_impact_recover_v2_nopose_anm.fbx using Guid(c3ad15e89df03e54d935e4ee8acdd06d) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 9.480540%;
+ -> (artifact id: '8eef77e93a28fc3ff37c9f91f7fbc33e') in 0.156273 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_relationship_negative.fbx using Guid(c35f080c611d75643b7825a5528ed7c4) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.197802%;
+ -> (artifact id: '14c98f55667e9e7036fb340c5a1ee3e0') in 0.145143 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_inn_idle_A_anm.fbx using Guid(f327f529c7c58624f96f06dbab48e4c9) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 6.451613%;
+ -> (artifact id: '1fe916c8a4ff0583467fad6063b727a6') in 0.128795 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_chop_idle_anm.fbx using Guid(f36a2df6006c97844b140b328133f389) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.438626%;
+ -> (artifact id: 'f660aa7c2e5bf976484a6cc0efa15b6b') in 0.144936 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_bark_listen.fbx using Guid(341f5e76fb194dc4f8c0859e28aff833) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.566137%;
+ -> (artifact id: '83922032b069b9154c9a046e5bd6169b') in 0.129928 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_victory_A_anm.fbx using Guid(f42d19615fa8faf4abb0795fbc8f4dc9) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 4.878049%;
+ -> (artifact id: 'b808ae9f905950c301a920479706df93') in 0.140307 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_buff_intraspection_antic_anm.fbx using Guid(1551602a55cbaff4aaa5532210faa653) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.846244%;
+ -> (artifact id: 'a9d2d55b1a19024219193d6d20a8801e') in 0.171482 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_bark_enter_v2_anm.fbx using Guid(85bd1c6dcfaafd64aa8bf05962d1ad17) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.133641%;
+ -> (artifact id: '9c914ec0e25ae41b0277ab6e5af3baa0') in 0.133385 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_antic_softer_anm.fbx using Guid(b5c509bb178fccb41b3e4af636d72fbe) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.691706%;
+ -> (artifact id: 'be85861a7efd21c6c9e8831c093ab404') in 0.162501 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_drawnback_antic_anm.fbx using Guid(d54e6995304fa37489cf6e0d4ac673b9) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 5.293427%;
+ -> (artifact id: 'fab7651d5fb893d7f26f5bb5ce5ced51') in 0.143398 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_slice_idle_anm.fbx using Guid(e5ccbab0e96ef344cad0080451ba63f4) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.288955%;
+ -> (artifact id: 'c1e3364ad3bc0bceb48101f0fd8dfa77') in 0.139532 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_inn_idle_D_anm.fbx using Guid(f54f78933a388e940877baffffc0026b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.222221%;
+ -> (artifact id: '17feef39762567ad0bb33bf96e4422c2') in 0.124873 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_victory_story.fbx using Guid(c615bd6617501344da07932bb6a20791) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 4.878049%;
+ -> (artifact id: '4ba90cdb5f041084eb432be69efe2dea') in 0.141635 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_promo_poseB.fbx using Guid(07993f79eb6bfb0449ca872142fe3bc2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 4.878049%;
+ -> (artifact id: '1336784f262ddbb0cc202a9063f97497') in 0.124610 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_stress_meltdown.fbx using Guid(17767670b6ba8fe4aafefbee68e5da80) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: 'b20c9dddb04a3f2213b8dac64e4d8eee') in 0.140116 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meltdown_B.fbx using Guid(173864886e61508489bfd14dc59793c2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.230952%;
+ -> (artifact id: '791511c53ee93889d65d1572e0e615cd') in 0.152825 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_action_anm.fbx using Guid(3772cf3deaf477d43bbf407532f42e8c) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.222221%;
+ -> (artifact id: '43a95e7299d74326cb0f0d9dde18fbdb') in 0.145198 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_moveforward_recover.fbx using Guid(7752c22cfc0671a4eab467a610d87bed) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 8.326900%;
+ -> (artifact id: '86f02e2096217007fc32c52d64e16953') in 0.141207 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_impact_recover_anm.fbx using Guid(77737c9c2611c674baafaa249e9bac26) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 5.459175%;
+ -> (artifact id: 'd3af24d281fe15896d58d26dec1edeb0') in 0.126095 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_inn_idle_item_anm.fbx using Guid(974784b098073ee4ca4712aedabd1d0b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.873941%;
+ -> (artifact id: '4909ac984ec2311ccd85f5d09e5f69c7') in 0.176632 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_action_anm.fbx using Guid(a75762ca050f43b459904e8e7481c40e) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: '66765b24bd01cebb4bdadcaa6394b65d') in 0.138229 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_stress_resolute.fbx using Guid(b7633d6cbab4b3b40a5fc6776dddedfa) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: 'd87449bf2bca6f472750effe3b69576e') in 0.154526 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_bark_enter_anm.fbx using Guid(e799ede29a5ccff43af0babe380e8fcf) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.380952%;
+ -> (artifact id: '3e7453897b854aa37a7893e2fc9382b0') in 0.147470 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meditate_antic_anm.fbx using Guid(78f63126750fd2a41b3cb27c86312468) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 5.237350%;
+ -> (artifact id: '8d54eedc4d9e39f85563f6aa8dba3b5c') in 0.147367 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_chop_antic_v2_anm.fbx using Guid(d85c2fd226a0d434da462f1fa6aeb7d0) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.312467%;
+ -> (artifact id: '5ec1a2e530c15ba4da5fafc7c5ce6ac3') in 0.145891 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_slice_action_anm.fbx using Guid(19876a9b335295444a79ed7998eee6a2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.222221%;
+ -> (artifact id: '0427a5b448a641df03d487af644a7a3f') in 0.124685 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_slice_2handed_recover_anm.fbx using Guid(293a6f30722dfd04e9970bfa2813b0af) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 7.230924%;
+ -> (artifact id: '6986c231c3c669220836c0b92b804045') in 0.157355 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_idle_v2_anm.fbx using Guid(99b45c7ad4d09ba408dda613b832ce8b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.131070%;
+ -> (artifact id: '873efbda82b339b0a24a0ba0a1983763') in 0.130212 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_idle_D_anm.fbx using Guid(f93b3208b2f80c9468e4a650848671b0) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.509524%;
+ -> (artifact id: '6e5dc4540ca946fb6a8f4886f3825de2') in 0.133045 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_inn_idle_C_anm.fbx using Guid(da6b9a00d8d75c04baebc8844a4ab4db) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.222221%;
+ -> (artifact id: '994465dfad5ec79a1effbea82231da82') in 0.142903 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_inn_idle_B_anm.fbx using Guid(4b7f86d526dec374ab98015c60311a49) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.666667%;
+ -> (artifact id: '7f946ba62a3d24b01f7f382bb4d1da3e') in 0.135234 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_embark.fbx using Guid(7b0c1dde838362f4ba187f1a6426e373) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.187850%;
+ -> (artifact id: 'fc0cf9276439717aba5e3032248c33bd') in 0.159986 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_deathsdoor_antic.fbx using Guid(fb4c0ec3b4e60244f92a7066a859c53b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 5.425999%;
+ -> (artifact id: '0f9ca500080bcf5aec3e0333388c74e2') in 0.146374 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_idle_B_anm.fbx using Guid(0cfc8bc7faa50c549af5f7e3a2db2268) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.136364%;
+ -> (artifact id: '145526f5d8b81ae7f00ef7a347deb0fc') in 0.149643 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_moveforward_antic.fbx using Guid(6c3c17346098bed4ea1d0fb6f6188176) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 14.649861%;
+ -> (artifact id: '1bd29a05b34e81c01e3b9a731c150048') in 0.120418 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meltdown_A.fbx using Guid(6cad29c0d81faec43b34dac9f89343dd) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.038095%;
+ -> (artifact id: '70650476f2e98b905af467949332dde0') in 0.163876 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_hero.fbx using Guid(8c9f966d647c5164bb73892e569157bf) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 4.214305%;
+ -> (artifact id: '9ca73f1a7b4836464ddec70e2fcf5d50') in 0.154195 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_hatred_impact_action.fbx using Guid(bc7c816ebcbdea54aa575753b230cee8) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.333333%;
+ -> (artifact id: '5f39948f9d00cd5aae07ced6dd0aa0c0') in 0.150813 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_relationship_positive.fbx using Guid(fca4ea678eea7c1419318d1fd44dc28c) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.000000%;
+ -> (artifact id: '5ddec5ea7cbe0542d87e07400cf2b944') in 0.173036 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meditate_action_anm.fbx using Guid(8db2471602278994398c9905b5b9ac2b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.680673%;
+ -> (artifact id: '7b308be15a6de2f341d2da380ac025dc') in 0.134970 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_chop_recover_anm.fbx using Guid(8d9d30cab2f5ea6469c4ac11f7a5933b) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 7.021387%;
+ -> (artifact id: '9964111b6bbc74d7479741ed5b17957a') in 0.150399 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_impact_buff_action.fbx using Guid(bde281da4e6b6e741a0761291150beaa) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.000000%;
+ -> (artifact id: '863bcec4801aa9595d8a702f83f5180a') in 0.153112 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_move_forward.fbx using Guid(bd6980baa26ad6c4f948df55534dca11) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 12.441316%;
+ -> (artifact id: '864ce5518ba5698398fb32acabf6b242') in 0.130663 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_idle_anm.fbx using Guid(1ebc0854fcd0b024b85fde4d25b4d65a) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.120866%;
+ -> (artifact id: '6ab4cd8cab45713dc4ae8dbba0e89875') in 0.121499 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_high_recover_anm.fbx using Guid(7ef02a4f939655d469ac3a9a501f99e2) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 8.622102%;
+ -> (artifact id: '3218b5ee13aa69493a39b9c24c974c9c') in 0.136402 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_buff_widestance_antic_anm.fbx using Guid(eec120960d4ffc742946f9d9a9d867b3) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 13.345238%;
+ -> (artifact id: '0452017e6b46607758facef01eb2d4af') in 0.115624 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_meditate_idle_anm.fbx using Guid(9f7e1df291a1238488a4ecaa30e7da71) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 2.017956%;
+ -> (artifact id: '83edc09858e44e4088ba44f634f64224') in 0.138905 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_chop_antic_anm.fbx using Guid(df917becf7d4fdf42a2adf058125811d) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 3.201058%;
+ -> (artifact id: '33f09e132db218a6c56c2febd96deb91') in 0.138537 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_sword_diagnal_slash_antic_anm.fbx using Guid(ef81cb1cd567f61469e91814d6293214) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 1.886840%;
+ -> (artifact id: 'a030873d6b2c5acde1d0e57045dbe50c') in 0.152891 seconds
+Start importing Assets/Heroes/leper/animation/leper@leper_impact_recover_v1_anm.fbx using Guid(ff66cc2521765924abeb43b98aea5b9f) Importer(-1,00000000000000000000000000000000) Keyframe reduction: Ratio: 6.345639%;
+ -> (artifact id: '923d2c0c990eaf8a5c2b6386477574f8') in 0.125784 seconds
+Start importing Assets/Heroes/leper/mdl_leper.fbx using Guid(1155e4d449f8cc84199da101ae67d497) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3da869db7560c8b94189e3b4128bdcd8') in 0.100330 seconds
+Start importing Assets/Heroes/leper/animation/leper_animation_controller.controller using Guid(bf1455e17fe341840bc64589ffbd3ccf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '13296acdb95a37654f6525aa1b40df09') in 0.032600 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0577b11333e1a4e43bda3ca37220f105): Total: 17.185 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=84 (actual=84, local cache=0, cache server=0)
+		Asset DB Process Time: managed=84 ms, native=11609 ms
+		Asset DB Callback time: managed=388 ms, native=97 ms
+		Scripting: domain reloads=1, domain reload time=761 ms, compile time=4240 ms, other=2 ms
+		Project Asset Count: scripts=92, non-scripts=108
+		Asset File Changes: new=84, changed=84, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.166ms
+	ApplyChangesToAssetFolders: 0.038ms
+	Scan: 44.223ms
+	OnSourceAssetsModified: 4.077ms
+	GetAllGuidsForCategorization: 0.039ms
+	CategorizeAssets: 2.637ms
+	ImportOutOfDateAssets: 11940.016ms (-3871.907ms without children)
+		ImportManagerImport: 11571.775ms (18.107ms without children)
+			ImportInProcess: 11553.479ms
+			UpdateCategorizedAssets: 0.188ms
+		CompileScripts: 4239.956ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.064ms
+		ReloadImportedAssets: 0.019ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.030ms
+		InitializingProgressBar: 0.009ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.070ms
+	PostProcessAllAssets: 399.378ms
+	Hotreload: 82.859ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.192ms
+	PersistCurrentRevisions: 0.092ms
+	UnloadStreamsEnd: 0.004ms
+	GenerateScriptTypeHashes: 0.001ms
+	Untracked: 4711.198ms
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 2.539ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlements
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-dd2-viewer
+ProgressiveSceneManager::Cancel()
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15123 unused Assets / (3.4 MB). Loaded Objects now: 523.
+Memory consumption went from 198.7 MB to 195.3 MB.
+Total: 18.217300 ms (FindLiveObjects: 0.939700 ms CreateObjectMapping: 0.737200 ms MarkObjects: 3.080100 ms  DeleteObjects: 13.459100 ms)
+
+Start importing Assets/Scenes using Guid(ad4f72a4e5d6fbe4ea1b10a695fc1d7b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '44ba5f69f43a7bad69832259c61116b8') in 0.001574 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0eedf439cb5b13f45969ece96aa0e4ab): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Heroes/leper/materials/mat_leper.mat using Guid(9be132c6538c24e42bb5c66a55949d8f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c03f7c76a1f58364ef0ef70484555645') in 0.001279 seconds
+Start importing Assets/Heroes/leper/materials/mat_leper_wpn_sword.mat using Guid(6f240acdd5799a0479a646a09e69ed24) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8903c1e83d693f91c8bfdcf51fb91fb5') in 0.000836 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=945d57bf9e1a29248af58bdeeb9aa891): Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (14.3 KB). Loaded Objects now: 523.
+Memory consumption went from 147.8 MB to 147.8 MB.
+Total: 2.386700 ms (FindLiveObjects: 0.038200 ms CreateObjectMapping: 0.003900 ms MarkObjects: 2.299000 ms  DeleteObjects: 0.044500 ms)
+
+Start importing Assets/Scenes/Viewer.unity using Guid(e1dd773adbe76f748adc830c3b12d263) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'aced310fa23c242fe78740b53ff080d0') in 0.000952 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c97b6a7af066d314f8e362e76e4404be): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a87d2a626a0b0074a9789b4c2958800d): Total: 0.002 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a21b8f428f75ad2369b86b90788f9737') in 0.003430 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b1ccf8b8d6cd2bb49bcd6b4ddfecdf07): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Licensing::IpcConnector] License Notification channel disconnected successfully.
+[Licensing::IpcConnector] License Client channel disconnected successfully.
+Cleanup mono
+abort_threads: Failed aborting id: 000000000000B2D4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000B6A8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000B2D4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000B6A8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4788
+[Performance] WinEditorMain                                                                                                  :        1 samples, Peak.  2.91 s (1.0x), Avg.  2.91 s, Total. 2.905 s (12.8%)
+[Performance] WinEditorMain.ConfigureCrashHandler                                                                            :        1 samples, Peak.  21.7 us (1.0x), Avg.  21.7 us, Total. 21.70 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                                                                            :        1 samples, Peak.   538 us (1.0x), Avg.   538 us, Total. 537.8 us (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                                                                     :        1 samples, Peak.   344 us (1.0x), Avg.   344 us, Total. 344.2 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                                                                  :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                                                                        :        1 samples, Peak.  2.85 s (1.0x), Avg.  2.85 s, Total. 2.847 s (12.6%)
+[Performance] WinEditorMain.InitializeCrashHandler                                                                           :        1 samples, Peak.  12.5 ms (1.0x), Avg.  12.5 ms, Total. 12.49 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                                                                                :        1 samples, Peak.   263 us (1.0x), Avg.   263 us, Total. 263.5 us (0.0%)
+[Performance] Application.InitializeProject                                                                                  :        1 samples, Peak.  19.2 s (1.0x), Avg.  19.2 s, Total. 19.24 s (85.1%)
+[Performance] Application.PackageManager.StartServer                                                                         :        1 samples, Peak.  1.38 ms (1.0x), Avg.  1.38 ms, Total. 1.380 ms (0.0%)
+[Performance] Application.AcquireProjectLock                                                                                 :        1 samples, Peak.  2.57 ms (1.0x), Avg.  2.57 ms, Total. 2.575 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                                                                         :        1 samples, Peak.  63.7 ms (1.0x), Avg.  63.7 ms, Total. 63.68 ms (0.3%)
+[Performance] Application.PackageManager.Initialize                                                                          :        1 samples, Peak.   500 ms (1.0x), Avg.   500 ms, Total. 500.1 ms (2.2%)
+[Performance] Connecting to Package Manager                                                                                  :       51 samples, Peak.  55.5 us (14.8x), Avg.  3.76 us, Total. 191.6 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                                                                          :        1 samples, Peak.   242 ms (1.0x), Avg.   242 ms, Total. 242.0 ms (1.1%)
+[Performance] Application.GI.Initialize                                                                                      :        1 samples, Peak.  3.30 ms (1.0x), Avg.  3.30 ms, Total. 3.300 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                                                                  :        1 samples, Peak.  2.40 ms (1.0x), Avg.  2.40 ms, Total. 2.403 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                                                                 :        1 samples, Peak.   719 ms (1.0x), Avg.   719 ms, Total. 718.9 ms (3.2%)
+[Performance] RestoreManagedReferences                                                                                       :        2 samples, Peak.  54.5 ms (2.0x), Avg.  27.3 ms, Total. 54.54 ms (0.2%)
+[Performance] InitializeOnLoad UnityConnect                                                                                  :        2 samples, Peak.   300 us (1.1x), Avg.   263 us, Total. 525.3 us (0.0%)
+[Performance] InitializeOnLoad SettingsService                                                                               :        2 samples, Peak.  37.6 us (1.6x), Avg.  23.0 us, Total. 46.00 us (0.0%)
+[Performance] InitializeOnLoad CacheServerWindow                                                                             :        2 samples, Peak.  31.8 us (1.6x), Avg.  20.4 us, Total. 40.80 us (0.0%)
+[Performance] InitializeOnLoad ProjectSearch                                                                                 :        2 samples, Peak.   265 us (1.4x), Avg.   195 us, Total. 390.2 us (0.0%)
+[Performance] InitializeOnLoad PlayModeDownload                                                                              :        2 samples, Peak.  3.91 ms (1.5x), Avg.  2.57 ms, Total. 5.144 ms (0.0%)
+[Performance] InitializeOnLoad EditMode                                                                                      :        2 samples, Peak.  1.11 ms (1.5x), Avg.   761 us, Total. 1.522 ms (0.0%)
+[Performance] InitializeOnLoad UISystemProfilerRenderService                                                                 :        2 samples, Peak.  15.1 us (1.3x), Avg.  11.3 us, Total. 22.50 us (0.0%)
+[Performance] InitializeOnLoad CloudBuild                                                                                    :        2 samples, Peak.  6.20 us (1.4x), Avg.  4.55 us, Total. 9.100 us (0.0%)
+[Performance] InitializeOnLoad DrivenRectTransformUndo                                                                       :        2 samples, Peak.   283 us (1.2x), Avg.   236 us, Total. 471.2 us (0.0%)
+[Performance] InitializeOnLoad PrefabInstanceChangedListener                                                                 :        2 samples, Peak.   165 us (1.2x), Avg.   137 us, Total. 274.9 us (0.0%)
+[Performance] InitializeOnLoad ObjectSelectorSearch                                                                          :        2 samples, Peak.   292 us (1.6x), Avg.   177 us, Total. 354.5 us (0.0%)
+[Performance] InitializeOnLoad ShortcutIntegration                                                                           :        2 samples, Peak.  66.0 us (1.1x), Avg.  59.2 us, Total. 118.3 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebugger                                                                               :        2 samples, Peak.   756 us (1.2x), Avg.   653 us, Total. 1.305 ms (0.0%)
+[Performance] InitializeOnLoad SceneSearch                                                                                   :        2 samples, Peak.  86.4 us (1.3x), Avg.  67.1 us, Total. 134.2 us (0.0%)
+[Performance] InitializeOnLoad MixerEffectDefinitionReloader                                                                 :        2 samples, Peak.  3.78 ms (1.1x), Avg.  3.38 ms, Total. 6.753 ms (0.0%)
+[Performance] InitializeOnLoad ManagedDebuggerWindow                                                                         :        2 samples, Peak.   227 us (1.1x), Avg.   211 us, Total. 422.5 us (0.0%)
+[Performance] InitializeOnLoad WindowLayout                                                                                  :        2 samples, Peak.   818 us (1.2x), Avg.   701 us, Total. 1.403 ms (0.0%)
+[Performance] InitializeOnLoad AssetStoreContext                                                                             :        2 samples, Peak.  34.9 ms (1.0x), Avg.  34.5 ms, Total. 68.98 ms (0.3%)
+[Performance] InitializeOnLoad MenuItems                                                                                     :        2 samples, Peak.   227 us (1.1x), Avg.   204 us, Total. 408.7 us (0.0%)
+[Performance] InitializeOnLoad SearchService                                                                                 :        2 samples, Peak.   192 us (1.0x), Avg.   185 us, Total. 369.5 us (0.0%)
+[Performance] InitializeOnLoad AddComponentWindow                                                                            :        2 samples, Peak.   155 us (1.0x), Avg.   152 us, Total. 304.3 us (0.0%)
+[Performance] InitializeOnLoad NativeFormatImporterUtility                                                                   :        2 samples, Peak.  4.20 ms (1.1x), Avg.  3.73 ms, Total. 7.465 ms (0.0%)
+[Performance] InitializeOnLoad EditorMonitor                                                                                 :        2 samples, Peak.  1.07 ms (1.1x), Avg.  1.00 ms, Total. 2.007 ms (0.0%)
+[Performance] InitializeOnLoad RetainedMode                                                                                  :        2 samples, Peak.  4.15 ms (1.2x), Avg.  3.34 ms, Total. 6.680 ms (0.0%)
+[Performance] InitializeOnLoad EditorShaderLoader                                                                            :        2 samples, Peak.  1.43 ms (1.4x), Avg.  1.05 ms, Total. 2.109 ms (0.0%)
+[Performance] InitializeOnLoad EditorDelegateRegistration                                                                    :        2 samples, Peak.   757 us (1.2x), Avg.   629 us, Total. 1.258 ms (0.0%)
+[Performance] InitializeOnLoad LiveReloadTrackerCreator                                                                      :        2 samples, Peak.   244 us (1.0x), Avg.   234 us, Total. 468.6 us (0.0%)
+[Performance] InitializeOnLoad UxmlObjectEditorFactories                                                                     :        2 samples, Peak.   978 us (1.3x), Avg.   742 us, Total. 1.484 ms (0.0%)
+[Performance] InitializeOnLoad UIDocumentHierarchyWatcher                                                                    :        2 samples, Peak.   265 us (1.5x), Avg.   176 us, Total. 351.2 us (0.0%)
+[Performance] InitializeOnLoad UXMLEditorFactories                                                                           :        2 samples, Peak.  80.9 ms (1.1x), Avg.  75.8 ms, Total. 151.6 ms (0.7%)
+[Performance] InitializeOnLoad BuildService                                                                                  :        2 samples, Peak.  6.85 ms (1.3x), Avg.  5.12 ms, Total. 10.23 ms (0.0%)
+[Performance] InitializeOnLoad AdsService                                                                                    :        2 samples, Peak.  2.35 ms (1.0x), Avg.  2.29 ms, Total. 4.572 ms (0.0%)
+[Performance] InitializeOnLoad UDPService                                                                                    :        2 samples, Peak.  2.60 ms (1.2x), Avg.  2.17 ms, Total. 4.338 ms (0.0%)
+[Performance] InitializeOnLoad EditorGameServicesAnalytics                                                                   :        2 samples, Peak.  4.19 ms (1.0x), Avg.  4.06 ms, Total. 8.122 ms (0.0%)
+[Performance] InitializeOnLoad ServicesRepository                                                                            :        2 samples, Peak.  3.20 us (1.2x), Avg.  2.65 us, Total. 5.300 us (0.0%)
+[Performance] InitializeOnLoad CrashService                                                                                  :        2 samples, Peak.  2.18 ms (1.0x), Avg.  2.12 ms, Total. 4.243 ms (0.0%)
+[Performance] InitializeOnLoad PurchasingService                                                                             :        2 samples, Peak.  10.3 ms (1.2x), Avg.  8.83 ms, Total. 17.66 ms (0.1%)
+[Performance] InitializeOnLoad AnalyticsService                                                                              :        2 samples, Peak.  1.72 ms (1.1x), Avg.  1.63 ms, Total. 3.252 ms (0.0%)
+[Performance] InitializeOnLoad CloudBuildPoller                                                                              :        2 samples, Peak.   326 us (1.5x), Avg.   223 us, Total. 446.5 us (0.0%)
+[Performance] InitializeOnLoad SearchWindow                                                                                  :        2 samples, Peak.   252 us (1.4x), Avg.   185 us, Total. 369.5 us (0.0%)
+[Performance] InitializeOnLoad CustomIndexers                                                                                :        2 samples, Peak.  22.1 ms (1.2x), Avg.  18.9 ms, Total. 37.80 ms (0.2%)
+[Performance] InitializeOnLoad SearchMonitor                                                                                 :        2 samples, Peak.  1.56 ms (1.3x), Avg.  1.15 ms, Total. 2.308 ms (0.0%)
+[Performance] InitializeOnLoad ParameterControllerEditor                                                                     :        2 samples, Peak.  29.7 us (1.3x), Avg.  23.6 us, Total. 47.20 us (0.0%)
+[Performance] InitializeOnLoad LayerSettingsWindow                                                                           :        2 samples, Peak.  37.7 us (1.8x), Avg.  20.5 us, Total. 40.90 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler                                  :        2 samples, Peak.   704 us (1.5x), Avg.   469 us, Total. 939.0 us (0.0%)
+[Performance] InitializeOnLoad EditorDragAndDrop.RegisterEditorClient                                                        :        2 samples, Peak.   343 us (1.3x), Avg.   257 us, Total. 513.9 us (0.0%)
+[Performance] InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks                               :        2 samples, Peak.  2.05 ms (1.3x), Avg.  1.56 ms, Total. 3.124 ms (0.0%)
+[Performance] InitializeOnLoad SceneTemplateService.Init                                                                     :        2 samples, Peak.  1.96 ms (1.2x), Avg.  1.69 ms, Total. 3.378 ms (0.0%)
+[Performance] InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init                                                         :        2 samples, Peak.  7.49 ms (1.7x), Avg.  4.44 ms, Total. 8.875 ms (0.0%)
+[Performance] InitializeOnLoad SceneVisibilityManager.Initialize                                                             :        2 samples, Peak.  5.52 ms (1.7x), Avg.  3.21 ms, Total. 6.416 ms (0.0%)
+[Performance] InitializeOnLoad ToolShortcutContext.Init                                                                      :        2 samples, Peak.   136 us (1.1x), Avg.   129 us, Total. 257.4 us (0.0%)
+[Performance] InitializeOnLoad EditorWindow.Initialize                                                                       :        2 samples, Peak.   190 us (1.1x), Avg.   181 us, Total. 361.3 us (0.0%)
+[Performance] InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded                                           :        2 samples, Peak.  29.3 ms (1.4x), Avg.  20.5 ms, Total. 40.97 ms (0.2%)
+[Performance] InitializeOnLoad RectSelection.RegisterShortcutContext                                                         :        2 samples, Peak.   626 us (1.3x), Avg.   467 us, Total. 934.9 us (0.0%)
+[Performance] InitializeOnLoad SysrootManager.Initialize                                                                     :        2 samples, Peak.   977 us (1.1x), Avg.   918 us, Total. 1.836 ms (0.0%)
+[Performance] InitializeOnLoad MemoryProfilerCompilationGuard.InjectCompileGuard                                             :        2 samples, Peak.   367 us (1.2x), Avg.   303 us, Total. 605.9 us (0.0%)
+[Performance] InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies                                         :        2 samples, Peak.  3.52 ms (1.3x), Avg.  2.70 ms, Total. 5.398 ms (0.0%)
+[Performance] InitializeOnLoad PackageManagerWindow.EditorInitializedInSafeMode                                              :        2 samples, Peak.   211 us (1.1x), Avg.   189 us, Total. 377.1 us (0.0%)
+[Performance] InitializeOnLoad SceneViewMotion.RegisterShortcutContexts                                                      :        2 samples, Peak.   182 us (1.2x), Avg.   149 us, Total. 298.0 us (0.0%)
+[Performance] AssemblyReloadEvents.afterAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.AfterAssemblyReload   :        2 samples, Peak.  7.76 ms (1.9x), Avg.  4.03 ms, Total. 8.051 ms (0.0%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                                                                    :        2 samples, Peak.   682 us (1.4x), Avg.   473 us, Total. 946.3 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                                                                    :        1 samples, Peak.  13.5 ms (1.0x), Avg.  13.5 ms, Total. 13.49 ms (0.1%)
+[Performance] Application.InitialRefresh                                                                                     :        1 samples, Peak.  17.2 s (1.0x), Avg.  17.2 s, Total. 17.19 s (76.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillCreateAsset                                                            :       12 samples, Peak.  1.17 ms (7.1x), Avg.   164 us, Total. 1.967 ms (0.0%)
+[Performance] ShaderImporter.SourceAssetModified                                                                             :        6 samples, Peak.  2.30 us (1.7x), Avg.  1.37 us, Total. 8.200 us (0.0%)
+[Performance] ShaderIncludeImporter.SourceAssetModified                                                                      :        6 samples, Peak.  6.60 us (2.5x), Avg.  2.67 us, Total. 16.00 us (0.0%)
+[Performance] Compiling Scripts                                                                                              :        1 samples, Peak.  4.24 s (1.0x), Avg.  4.24 s, Total. 4.240 s (18.7%)
+[Performance] AssemblyReloadEvents.beforeAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.BeforeAssemblyReload :        1 samples, Peak.   717 us (1.0x), Avg.   717 us, Total. 717.4 us (0.0%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                                                                   :       89 samples, Peak.  2.15 ms (51.2x), Avg.  42.0 us, Total. 3.738 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                                                              :       89 samples, Peak.   200 us (40.8x), Avg.  4.89 us, Total. 435.5 us (0.0%)
+[Performance] DidReloadScriptsAdvancedDropdownWindow.OnScriptReload                                                          :        1 samples, Peak.   292 us (1.0x), Avg.   292 us, Total. 292.0 us (0.0%)
+[Performance] TextureImporter.Import                                                                                         :        4 samples, Peak.   760 ms (2.3x), Avg.   335 ms, Total. 1.339 s (5.9%)
+[Performance] ModelImporter.Import                                                                                           :       68 samples, Peak.   228 ms (1.6x), Avg.   143 ms, Total. 9.752 s (43.1%)
+[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback                                                  :    21927 samples, Peak.  1.33 ms (831.1x), Avg.  1.60 us, Total. 35.04 ms (0.2%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                                                                        :   165684 samples, Peak.  77.9 us (140.3x), Avg.   555 ns, Total. 92.01 ms (0.4%)
+[Performance] TreeAOImporter.OnPostprocessModel                                                                              :       68 samples, Peak.  2.29 ms (42.5x), Avg.  54.0 us, Total. 3.673 ms (0.0%)
+[Performance] AssetDatabase.ImportAssets                                                                                     :       11 samples, Peak.  10.1 ms (7.1x), Avg.  1.41 ms, Total. 15.50 ms (0.1%)
+[Performance] VersionControl.Task.Wait                                                                                       :        1 samples, Peak.  11.8 us (1.0x), Avg.  11.8 us, Total. 11.80 us (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets                                                               :       10 samples, Peak.  3.54 ms (4.9x), Avg.   725 us, Total. 7.246 ms (0.0%)
+[Performance] ArtifactBrowserPostProcessor.OnPostprocessAllAssets                                                            :       10 samples, Peak.   513 us (4.9x), Avg.   105 us, Total. 1.051 ms (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                                                                             :       20 samples, Peak.   452 us (8.6x), Avg.  52.8 us, Total. 1.055 ms (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                                                                 :       10 samples, Peak.   254 us (4.8x), Avg.  53.1 us, Total. 531.5 us (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                                                               :       10 samples, Peak.  17.2 ms (5.0x), Avg.  3.45 ms, Total. 34.53 ms (0.2%)
+[Performance] BuildCatalog                                                                                                   :        1 samples, Peak.  16.1 ms (1.0x), Avg.  16.1 ms, Total. 16.15 ms (0.1%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                                                              :       10 samples, Peak.   332 ms (5.0x), Avg.  66.6 ms, Total. 665.5 ms (2.9%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets                                                          :       10 samples, Peak.  4.74 ms (3.0x), Avg.  1.59 ms, Total. 15.91 ms (0.1%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                                                                    :       10 samples, Peak.  4.04 ms (4.7x), Avg.   860 us, Total. 8.598 ms (0.0%)
+[Performance] SpeedTreePostProcessor.OnPostprocessAllAssets                                                                  :       10 samples, Peak.   939 us (4.8x), Avg.   196 us, Total. 1.959 ms (0.0%)
+[Performance] TextAssetPostProcessor.OnPostprocessAllAssets                                                                  :       10 samples, Peak.  3.10 ms (4.9x), Avg.   631 us, Total. 6.306 ms (0.0%)
+[Performance] SyncVS.PostprocessSyncProject                                                                                  :        5 samples, Peak.  2.08 ms (4.7x), Avg.   444 us, Total. 2.220 ms (0.0%)
+[Performance] EditorApplication.projectChanged: UnityEditor.Audio.MixerEffectDefinitionReloader.OnProjectChanged             :        3 samples, Peak.   524 us (1.3x), Avg.   402 us, Total. 1.207 ms (0.0%)
+[Performance] Application.ImportPackagesAndSetTemplateWhenCreatingProject                                                    :        1 samples, Peak.  15.8 ms (1.0x), Avg.  15.8 ms, Total. 15.76 ms (0.1%)
+[Performance] Application.SyncCurrentColorSpace                                                                              :        1 samples, Peak.  73.3 ms (1.0x), Avg.  73.3 ms, Total. 73.32 ms (0.3%)
+[Performance] Application.OnUsbDevicesChanged                                                                                :        1 samples, Peak.  2.59 ms (1.0x), Avg.  2.59 ms, Total. 2.594 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                                                                           :        1 samples, Peak.   900 ns (1.0x), Avg.   900 ns, Total. 900.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                                                                         :        1 samples, Peak.   476 us (1.0x), Avg.   476 us, Total. 475.7 us (0.0%)
+[Performance] CodeEditorProjectSync.SyncEditorProject                                                                        :        1 samples, Peak.   101 us (1.0x), Avg.   101 us, Total. 101.1 us (0.0%)
+[Performance] Application.ExecuteStartups                                                                                    :        1 samples, Peak.  80.5 ms (1.0x), Avg.  80.5 ms, Total. 80.55 ms (0.4%)
+[Performance] Menu.RegisterMenuInterface                                                                                     :       26 samples, Peak.   700 ns (4.8x), Avg.   146 ns, Total. 3.800 us (0.0%)
+[Performance] Gizmo.RebuildRenderers                                                                                         :        1 samples, Peak.  80.2 ms (1.0x), Avg.  80.2 ms, Total. 80.17 ms (0.4%)
+[Performance] Gizmo.AddGizmoRenderers                                                                                        :       20 samples, Peak.  2.15 ms (14.7x), Avg.   146 us, Total. 2.923 ms (0.0%)
+[Performance] Application.editorInitializingProject                                                                          :        1 samples, Peak.   154 ms (1.0x), Avg.   154 ms, Total. 153.6 ms (0.7%)
+[Performance] Application.InitializeMenu                                                                                     :        1 samples, Peak.  58.0 ms (1.0x), Avg.  58.0 ms, Total. 58.01 ms (0.3%)
+[Performance] Menu.RebuildAll                                                                                                :        1 samples, Peak.  58.0 ms (1.0x), Avg.  58.0 ms, Total. 58.00 ms (0.3%)
+[Performance] Menu.BuildRegisteredMenuInterfaces                                                                             :        1 samples, Peak.  55.3 ms (1.0x), Avg.  55.3 ms, Total. 55.28 ms (0.2%)
+[Performance] Menu.FilterMenuItem                                                                                            :      446 samples, Peak.  12.8 ms (438.5x), Avg.  29.3 us, Total. 13.05 ms (0.1%)
+[Performance] UpdateAllMenus                                                                                                 :        1 samples, Peak.   602 us (1.0x), Avg.   602 us, Total. 601.6 us (0.0%)
+[Performance] Menu.RebuildOSMainMenu                                                                                         :        2 samples, Peak.  1.84 ms (1.2x), Avg.  1.57 ms, Total. 3.133 ms (0.0%)
+[Performance] EditorSceneManager.sceneClosing: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneClosing           :        2 samples, Peak.   281 us (2.0x), Avg.   142 us, Total. 284.9 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                                                                        :        2 samples, Peak.  2.00 us (1.1x), Avg.  1.75 us, Total. 3.500 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneTemplate.SceneTemplateService.OnNewSceneCreated           :        2 samples, Peak.   294 us (2.0x), Avg.   148 us, Total. 297.0 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnNewSceneCreated     :        2 samples, Peak.   212 us (1.9x), Avg.   109 us, Total. 218.2 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneManagement.StageNavigationManager.OnNewSceneCreated       :        2 samples, Peak.   102 us (2.0x), Avg.  51.5 us, Total. 103.0 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                                                                       :        1 samples, Peak.   763 us (1.0x), Avg.   763 us, Total. 763.3 us (0.0%)
+[Performance] ProcessService.OnProjectLoaded                                                                                 :        1 samples, Peak.  62.6 us (1.0x), Avg.  62.6 us, Total. 62.60 us (0.0%)
+[Performance] AssetDatabase.ImportAsset                                                                                      :        2 samples, Peak.  10.7 ms (1.2x), Avg.  8.88 ms, Total. 17.76 ms (0.1%)
+[Performance] BuilderAssetModificationProcessor.OnWillSaveAssets                                                             :        3 samples, Peak.   278 us (2.7x), Avg.   104 us, Total. 311.7 us (0.0%)
+[Performance] TerrainModificationProcessor.OnWillSaveAssets                                                                  :        3 samples, Peak.   775 us (3.0x), Avg.   261 us, Total. 782.6 us (0.0%)
+[Performance] EditorSceneManager.sceneSaving: UnityEditor.SceneTemplate.SceneTemplateService.OnSceneSaving                   :        1 samples, Peak.   873 us (1.0x), Avg.   873 us, Total. 873.4 us (0.0%)
+[Performance] EditorSceneManager.sceneSaving: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneSaving             :        1 samples, Peak.   273 us (1.0x), Avg.   273 us, Total. 272.8 us (0.0%)
+[Performance] EditorSceneManager.sceneSaved: UnityEditor.SceneTemplate.SceneTemplateService.OnSceneSaved                     :        1 samples, Peak.  11.6 ms (1.0x), Avg.  11.6 ms, Total. 11.59 ms (0.1%)
+[Performance] EditorSceneManager.sceneSaved: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneSaved               :        1 samples, Peak.   115 us (1.0x), Avg.   115 us, Total. 115.4 us (0.0%)
+[Performance] AssetDatabase.Refresh                                                                                          :        1 samples, Peak.  1.97 ms (1.0x), Avg.  1.97 ms, Total. 1.971 ms (0.0%)
+[Performance] EditorApplication.quitting: callback in UnityEditor.TextCore.Text.EditorEventCallbacks                         :        1 samples, Peak.  1.67 ms (1.0x), Avg.  1.67 ms, Total. 1.668 ms (0.0%)
+[Performance] Application.Shutdown.PauseProfilerSession                                                                      :        1 samples, Peak.  37.0 us (1.0x), Avg.  37.0 us, Total. 37.00 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                                                                   :        1 samples, Peak.  63.9 us (1.0x), Avg.  63.9 us, Total. 63.90 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                                                                                :        1 samples, Peak.  12.1 ms (1.0x), Avg.  12.1 ms, Total. 12.08 ms (0.1%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                                                                     :        1 samples, Peak.  8.10 us (1.0x), Avg.  8.10 us, Total. 8.100 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                                                                        :        1 samples, Peak.  9.78 ms (1.0x), Avg.  9.78 ms, Total. 9.780 ms (0.0%)
+[Performance] Application.Shutdown.DestroyWorld                                                                              :        1 samples, Peak.   661 us (1.0x), Avg.   661 us, Total. 661.3 us (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                                                                          :        1 samples, Peak.  2.31 ms (1.0x), Avg.  2.31 ms, Total. 2.306 ms (0.0%)
+[Performance] Application.Shutdown.Progress                                                                                  :        1 samples, Peak.  8.30 us (1.0x), Avg.  8.30 us, Total. 8.300 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                                                                         :        1 samples, Peak.   573 us (1.0x), Avg.   573 us, Total. 573.3 us (0.0%)
+[Performance] Application.Shutdown.MenuCleanupClass                                                                          :        1 samples, Peak.   104 us (1.0x), Avg.   104 us, Total. 104.2 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown                                                                :        1 samples, Peak.  9.60 us (1.0x), Avg.  9.60 us, Total. 9.600 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                                                                            :        1 samples, Peak.  1.10 us (1.0x), Avg.  1.10 us, Total. 1.100 us (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                                                                         :        1 samples, Peak.  12.3 us (1.0x), Avg.  12.3 us, Total. 12.30 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                                                                             :        1 samples, Peak.  3.60 us (1.0x), Avg.  3.60 us, Total. 3.600 us (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                                                                       :        1 samples, Peak.   805 us (1.0x), Avg.   805 us, Total. 805.5 us (0.0%)
+[Performance] Application.Shutdown.ProfilerSession                                                                           :        1 samples, Peak.   238 us (1.0x), Avg.   238 us, Total. 237.6 us (0.0%)
+[Performance] Application.Shutdown.ReleaseGfxWindowOnAllGUIViews                                                             :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                                                                             :        1 samples, Peak.  70.9 ms (1.0x), Avg.  70.9 ms, Total. 70.94 ms (0.3%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                                                                      :        1 samples, Peak.  6.26 ms (1.0x), Avg.  6.26 ms, Total. 6.261 ms (0.0%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                                                                  :        1 samples, Peak.  27.7 ms (1.0x), Avg.  27.7 ms, Total. 27.73 ms (0.1%)
+[Performance] Application.Shutdown.DestroyJobSystem                                                                          :        1 samples, Peak.   130 us (1.0x), Avg.   130 us, Total. 129.6 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                                                                  :        1 samples, Peak.  4.46 ms (1.0x), Avg.  4.46 ms, Total. 4.463 ms (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                                                                   :        1 samples, Peak.   122 us (1.0x), Avg.   122 us, Total. 121.8 us (0.0%)
+[Performance] Application.Shutdown.CleanupProgressBar                                                                        :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupMono                                                                               :        1 samples, Peak.  50.5 ms (1.0x), Avg.  50.5 ms, Total. 50.50 ms (0.2%)
+[Performance] Application.Shutdown.CleanupStdConverters                                                                      :        1 samples, Peak.  9.90 us (1.0x), Avg.  9.90 us, Total. 9.900 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls                                                  :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries                                                   :        1 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 100.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                                                                  :        1 samples, Peak.   369 us (1.0x), Avg.   369 us, Total. 368.8 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                                                                  :        1 samples, Peak.  51.7 us (1.0x), Avg.  51.7 us, Total. 51.70 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                                                                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                                                                   :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.DevConnections                                                                            :        1 samples, Peak.   134 us (1.0x), Avg.   134 us, Total. 133.5 us (0.0%)
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

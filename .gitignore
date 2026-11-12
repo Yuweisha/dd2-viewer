@@ -1,0 +1,22 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.user
+.vs/
+.idea/
+
+# 游戏资源（体积大 + 版权，不入库）
+Assets/Heroes/
+Assets/_Preview/*.fbx
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage

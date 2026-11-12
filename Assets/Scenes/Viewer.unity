@@ -1,0 +1,1519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.22, b: 0.28, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &138971913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138971915}
+  - component: {fileID: 138971914}
+  m_Layer: 0
+  m_Name: Viewer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &138971914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138971913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85a9a54ac3eefc49a4d6c2c63c5840a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroes:
+  - displayName: "\u4FEE\u5973  (vestal)"
+    heroId: vestal
+    modelPrefab: {fileID: 919132149155446097, guid: f924879b2fc94e140a4f3c9cdb5c0b86, type: 3}
+    controller: {fileID: 9100000, guid: d54bbd6431a3e1c40ad82032b7bd159d, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 8c0e41bdfa2971249871c38ae716fbcd, type: 2}
+    - {fileID: 2100000, guid: 2d29a535a57095b47b8eab4525fca5fb, type: 2}
+    - {fileID: 2100000, guid: f66e5fd12bd20324c9e70f1f340c1285, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - victory
+    - impact_small
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - impact_small
+    - move_forward_recover
+    - move_forward
+    - relationship_test_positive
+    - relationship_test_negative
+    - impact_was_guarded
+    - impact_backstab
+    - meltdown
+    - resolute
+    - hero
+    - embark
+    - actout_caster
+  - displayName: "\u51B3\u6597\u8005  (duelist)"
+    heroId: duelist
+    modelPrefab: {fileID: 919132149155446097, guid: f0fab01b227c1124b86a682972319ef9, type: 3}
+    controller: {fileID: 9100000, guid: 5245a16e3e5f4584690af7ea2309b981, type: 2}
+    materials:
+    - {fileID: 2100000, guid: d63e61f78ad3f4c4ca2264e014399fc0, type: 2}
+    - {fileID: 2100000, guid: c6b28bde51ebfc546938328e6c20a003, type: 2}
+    - {fileID: 2100000, guid: 74a680c2087dfd74f84ab24d106d680b, type: 2}
+    - {fileID: 2100000, guid: 3feb7dfa7a741d94b8d59a2228fdf538, type: 2}
+    - {fileID: 2100000, guid: 5aa34665ec392d74b886b9fc0b4b2018, type: 2}
+    - {fileID: 2100000, guid: 2d7b4501eb33ffd44975b8e314361f36, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - victory
+    - impact_small
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - skill_e_antic
+    - skill_e_idle
+    - hero
+    - skill_f_antic
+    - skill_f_idle
+    - skill_g_antic
+    - skill_g_idle
+    - meltdown
+    - resolute
+    - skill_h_antic
+    - skill_h_idle
+    - skill_i_antic
+    - skill_i_idle
+    - hit_backstab
+    - relationship_test_positive
+    - relationship_test_negative
+    - impact_was_guarded
+    - move_forward_recover
+    - move_forward_recover
+    - actout_caster
+    - hit_is_guarding
+    - embark
+  - displayName: "\u5341\u5B57\u519B  (crusader)"
+    heroId: crusader
+    modelPrefab: {fileID: 919132149155446097, guid: 4594feed36326834294d544ef8b7c241, type: 3}
+    controller: {fileID: 9100000, guid: cfd1491a2254e2841bad131f21e06e53, type: 2}
+    materials:
+    - {fileID: 2100000, guid: c58ab92d8f7c60c4eae636500adf88c2, type: 2}
+    - {fileID: 2100000, guid: f03cbbc9960b9694c865416c0f2d4166, type: 2}
+    - {fileID: 2100000, guid: 084cc2927d44dfe4ea750a38ce21d1df, type: 2}
+    - {fileID: 2100000, guid: f90d39b28fd66954fa7a2b3673c3bd81, type: 2}
+    - {fileID: 2100000, guid: 5b6168a74fb60e547bd439b0632bcbed, type: 2}
+    - {fileID: 2100000, guid: b7c073b42bd50e04a994e4e2032d1830, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - victory
+    - impact_dodge
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - skill_e_antic
+    - skill_e_idle
+    - skill_f_antic
+    - skill_f_idle
+    - skill_g_antic
+    - skill_f_idle 0
+    - hero
+    - meltdown
+    - resolute
+    - skill_h_antic
+    - skill_h_idle
+    - move_forward 0
+    - move_forward 0
+    - impact_was_guarded
+    - embark
+    - relationship_test_positive
+    - relationship_test_negative
+    - impact_hatred
+    - actout_caster
+  - displayName: "\u5C0F\u4E11  (jester)"
+    heroId: jester
+    modelPrefab: {fileID: 919132149155446097, guid: ff680d52fc668fe4eace16d4caf33003, type: 3}
+    controller: {fileID: 9100000, guid: 69dedb4538025f943ba810b9998ad702, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 2f7ea49a295edc24bbebe8c78066f75f, type: 2}
+    - {fileID: 2100000, guid: 35fa78fec7413f043a2df90c69997203, type: 2}
+    - {fileID: 2100000, guid: 451fd9ec2cb2bd14aa5266adf5286152, type: 2}
+    - {fileID: 2100000, guid: 332ce9632f25a5c4dad12393aa4a0d06, type: 2}
+    - {fileID: 2100000, guid: 887cf43a98e443b4aa0a3ab762ca5066, type: 2}
+    clipStates:
+    - idle_neutral
+    - sickeA_idle
+    - attack_luteshoulder_twirl_idle
+    - antic_attack_sickleA
+    - attack_luteshoulder_twirl_antic
+    - impact_small
+    - impact_small_recover
+    - move_forward
+    - move_forward
+    - move_forward
+    - deathsdoor_antic
+    - knifeLunge_Antic
+    - knifelunge_idle
+    - impact_small
+    - impact_small_recover
+    - deathsdoor_idle
+    - inn_idle
+    - impact_friendly_buff
+    - Jester_lute_spin_antic
+    - jester_lute_spin_idle
+    - victory
+    - inn_item_antic
+    - inn_item_idle
+    - inn_item_recover
+    - impact_was_guarded
+    - Death
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - impact_friendly_buff
+    - embark
+    - impact_backstab
+  - displayName: "\u5F3A\u76D7  (highwayman)"
+    heroId: highwayman
+    modelPrefab: {fileID: -927199367670048503, guid: 01bd0ec2b90e86f4a922abfeca799bd7, type: 3}
+    controller: {fileID: 9100000, guid: f612167d6f3013d43a1eff2a6cd117b0, type: 2}
+    materials:
+    - {fileID: 2100000, guid: b18ccb520c9fe85428b618f753d19f70, type: 2}
+    - {fileID: 2100000, guid: 9ab75def9792ccf48bd8845d90f921a7, type: 2}
+    - {fileID: 2100000, guid: 859c20e2dba455c4d9bf9008ba37407f, type: 2}
+    clipStates:
+    - idle_attack1_wickedSlice 0
+    - idle_attack1_point_blank_shot
+    - antic_attack1_wickedSlice 0
+    - antic_attack1_point_blank_shot
+    - impact_small
+    - antic_attack1_point_blank_shot
+    - idle_attack1_point_blank_shot
+    - impact_recover
+    - move_forward
+    - move_forward
+    - move_forward 0
+    - move_forward 0
+    - impact_dodge
+    - Friendly_buff
+    - Friendly_buff 0
+    - deaths_door_exit
+    - inn_idle
+    - bark_positive
+    - victory
+    - inn_item_antic
+    - inn_item_idle
+    - inn_item_recover
+    - impact_was_guarded
+    - bark_listen
+    - bark_negative
+    - antic_hipshot
+    - idle_hipshot
+    - idle_advance
+    - antic_advance
+    - antic_take_aim
+    - idle_take_aim
+    - antic_attack1_double_cross
+    - idle_attack1_double_cross
+    - meltdown
+    - impact_small
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - resolute
+    - impact_small
+    - actout_caster
+    - embark
+    - impact_backstab
+    - 
+    - 
+    - deaths_door_exit
+  - displayName: "\u6B66\u88C5\u8005  (man_at_arms)"
+    heroId: man_at_arms
+    modelPrefab: {fileID: -927199367670048503, guid: 24ecb1410ce764946bd68b2861ada5ea, type: 3}
+    controller: {fileID: 9100000, guid: e1abdf8fa90c2594dbf7ef45505ae238, type: 2}
+    materials:
+    - {fileID: 2100000, guid: c32b58468d2dde441b43c435b6d5e456, type: 2}
+    - {fileID: 2100000, guid: f3b9e5c49879f3a46b6a8c2e57642246, type: 2}
+    - {fileID: 2100000, guid: 1cbf7301d581e88498ebe52d751d788a, type: 2}
+    clipStates:
+    - idle_neutral
+    - idle_attack1_macestrike
+    - idle_attack2_shieldbash_idle
+    - antic_attack1_macestrike_antic
+    - antic_attack2_shieldbash_antic
+    - impact_small
+    - impact_small_recover
+    - move_backward
+    - move_backward
+    - move_backward_recover
+    - deaths_door_antic
+    - deaths_door_idle
+    - antic_attack3_backswing_antic
+    - antic_attack3_backswign_idle
+    - antic_maa_buffA
+    - idle_maa_buffA
+    - inn_idle
+    - victory
+    - inn_item_antic
+    - inn_item_idle
+    - inn_item_recover
+    - impact_was_guarded
+    - impact_small
+    - impact_small_recover
+    - antic_yell
+    - idle_yell
+    - impact_small
+    - impact_friendly_buff
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - impact_friendly_buff
+    - embark
+    - impact_backstab
+  - displayName: "\u7578\u53D8\u4F53\uFF08\u4EBA\u5F62\uFF09  (abomination_human)"
+    heroId: abomination_human
+    modelPrefab: {fileID: 919132149155446097, guid: 00e09fec93b249a4d860f8ba2ed39aff, type: 3}
+    controller: {fileID: 9100000, guid: b3426b8597cb1cb4c9aa8728a3f538e5, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 6a97cd8ea5593a54980e3aab1292745a, type: 2}
+    - {fileID: 2100000, guid: 285d2b554817f844cbd40b8de407086a, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - victory
+    - impact_small
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - meltdown
+    - resolute
+    - impact_backstab
+    - impact_recover 0
+    - hero
+    - relationship_test_positive
+    - relationship_test_negative
+    - skill_e_antic
+    - skill_e_idle
+    - actout_caster
+    - move_forward_recover
+    - move_forward_recover
+    - embark
+    - impact_was_guarded
+  - displayName: "\u7578\u53D8\u4F53\uFF08\u517D\u5F62\uFF09  (abomination_beast)"
+    heroId: abomination_beast
+    modelPrefab: {fileID: 919132149155446097, guid: d7d46aebdcf62ab4eb85c0e9fc8416e7, type: 3}
+    controller: {fileID: 9100000, guid: d62b9f1efb988b44ca049ef983693637, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 23e054f04ece67b44b6bcfac8cb75548, type: 2}
+    - {fileID: 2100000, guid: ee1cf6d92dbc52840ac34eaaee779f32, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - impact_dodge
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - actout_caster
+    - impact_recover 0
+    - relationship_test_positive
+    - relationship_test_negative
+    - relationship_test_positive
+    - move_forward_recover
+    - move_forward_recover
+    - impact_was_guarded
+    - hero_select
+    - idle_neutral
+    - hit_backstab
+  - displayName: "\u761F\u75AB\u533B\u751F  (plague_doctor)"
+    heroId: plague_doctor
+    modelPrefab: {fileID: 100174, guid: 84e1a2ce01035d74d9c15971d5fee940, type: 3}
+    controller: {fileID: 9100000, guid: 3d0012e5d55406a4db0b3d7dd7e79e29, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 3d94b6c7e74609d4c9c2d508eee67c65, type: 2}
+    - {fileID: 2100000, guid: 33ed02a1cd003944687093c6b6b8711b, type: 2}
+    - {fileID: 2100000, guid: 4b2f63f4e686a1b41aa43f34ce00ebb4, type: 2}
+    clipStates:
+    - idle_neutral
+    - idle_attack1_poison
+    - idle_attack2_knifeslash_idle
+    - antic_attack1_explosion_antic
+    - antic_attack2_knifeslash_antic
+    - impact_small
+    - impact_small_recover
+    - move_forward
+    - move_forward
+    - move_forward_recover
+    - deathsdoor_antic
+    - antic_attack3_poison_antic
+    - idle_attack3_poison
+    - impact_small
+    - impact_small_recover
+    - antic_plague_buff
+    - idle_plague_buff
+    - deathsdoor_idle
+    - inn_idle
+    - victory
+    - inn_item_antic
+    - inn_item_recover
+    - inn_item_idle
+    - impact_was_guarded
+    - impact_small
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - impact_buff
+    - impact_buff
+    - embark
+    - impact_backstab
+  - displayName: "\u76D7\u5893\u8D3C  (grave_robber)"
+    heroId: grave_robber
+    modelPrefab: {fileID: -927199367670048503, guid: 8dba19d0edfed104b8d0362fd776f4ab, type: 3}
+    controller: {fileID: 9100000, guid: 29a1b96271b98e34ab56f7334d963021, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 0f16b049e36f7fb429705a815fccb2a4, type: 2}
+    - {fileID: 2100000, guid: 9a5917cac67b3c141bf1eb90a688e420, type: 2}
+    - {fileID: 2100000, guid: 4e7051a8e5de72e43abc88764dc38949, type: 2}
+    - {fileID: 2100000, guid: 0763276daa4632841b609c812376e761, type: 2}
+    clipStates:
+    - idle_neutral
+    - idle_attack_dagger_multithrow_idle
+    - idle_dagger_throw
+    - antic_attack1_dagger_multithrow_antic
+    - antic_dagger_throw
+    - impact_small
+    - antic_attack_pickaxe_down
+    - idle_pickaxe_down
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - move_forward 0
+    - move_forward 0
+    - inn_idle
+    - antic_potiondrink
+    - idle_potiondrink
+    - victory
+    - impact_small
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - impact_was_guarded
+    - antic_dagger_throw
+    - idle_dagger_throw
+    - antic_attack_lunge
+    - idle_lunge
+    - impact_was_guarded
+    - antic_fade
+    - idle_fade
+    - Death
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - Death
+    - impact_was_guarded
+    - embark
+    - impact_backstab
+    - New State
+    - combat_item
+    - combat_item_recover
+  - displayName: "\u795E\u79D8\u5B66\u8005  (occultist)"
+    heroId: occultist
+    modelPrefab: {fileID: -927199367670048503, guid: 227ba460918b61c47ba7f58800363554, type: 3}
+    controller: {fileID: 9100000, guid: 365078c2b2d983745897337a7cca2e8a, type: 2}
+    materials:
+    - {fileID: 2100000, guid: e76696f71e68772428f2552aafc6b9a4, type: 2}
+    - {fileID: 2100000, guid: 9ccf40637720d7a4e9c919a2a1ba5af1, type: 2}
+    - {fileID: 2100000, guid: b2ef2b633b435554da18fa758c0aeda2, type: 2}
+    - {fileID: 2100000, guid: 97ff5bf28c2d6204cbf0ffd9bb5f25d3, type: 2}
+    clipStates:
+    - idle_neutral
+    - spellA_skullignite_idle
+    - idle_skullgrab2
+    - Antic_spellA
+    - antic_skullgrab_B
+    - impact_small
+    - antic_skullGrabC
+    - idle_attack_spellC
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - move_forward 0
+    - move_forward 0
+    - impact_dodge
+    - Friendly_buff
+    - antic_knife_slash_antic
+    - occultist_knife_idle
+    - inn_idle
+    - victory
+    - inn_item_antic
+    - inn_item_idle
+    - inn_item_recover
+    - impact_was_guarded
+    - impact_small
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - Friendly_buff
+    - embark
+    - impact_backstab
+  - displayName: "\u82E6\u4FEE\u8005  (flagellant)"
+    heroId: flagellant
+    modelPrefab: {fileID: 919132149155446097, guid: 60b2eda4dd430724598f951aca248221, type: 3}
+    controller: {fileID: 9100000, guid: a4d90bdde00a21a4592d80644efebeec, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 9b83a9590ff844549b60d3834ad30fe0, type: 2}
+    - {fileID: 2100000, guid: c1e8248a1d0e7fa42a150a90393f158e, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - victory
+    - impact_dodge
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_d_antic
+    - skill_d_idle
+    - impact_was_guarded
+    - skill_e_antic
+    - skill_e_idle
+    - skill_f_antic_rain
+    - skill_f_idle
+    - meltdown
+    - resolute
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - embark
+    - impact_backstab
+    - impact_friendly_buff
+    - actout_caster
+    - victory
+    - move_forward_recover
+    - move_forward_recover
+  - displayName: "\u86EE\u5973  (hellion)"
+    heroId: hellion
+    modelPrefab: {fileID: 919132149155446097, guid: 28bfb56ba302dde47b94c4604f53f48e, type: 3}
+    controller: {fileID: 9100000, guid: acba6efcfcae3ab4ea091c2c7bd834b3, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 23417299c34ccc74395c872fa3f29ef3, type: 2}
+    - {fileID: 2100000, guid: 81dd503b64852c04191bb0963234274c, type: 2}
+    clipStates:
+    - idle_neutral
+    - idle_attack1_downswing
+    - idle_attack3_uppercut
+    - antic_attack1_downswing_antic
+    - antic_attack3_uppercut
+    - impact_small
+    - antic_attack4_twirl_antic
+    - idle_attack4_twirl
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - move_forward 0
+    - move_forward 0
+    - inn_idle
+    - antic_attack5
+    - idle_attack5
+    - victory
+    - impact_small
+    - impact_recover
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - impact_was_guarded
+    - antic_attack2_poke
+    - idle_attack2_poke
+    - antic_buff_stance
+    - idle_buff_stance
+    - antic_shout
+    - idle_shout
+    - impact_small
+    - impact_was_guarded
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - impact_was_guarded
+    - embark
+    - impact_backstab
+  - displayName: "\u8D4F\u91D1\u730E\u4EBA  (bounty_hunter)"
+    heroId: bounty_hunter
+    modelPrefab: {fileID: 919132149155446097, guid: d158868592341ff4582c6189036d7857, type: 3}
+    controller: {fileID: 9100000, guid: 902eb24ea51279c4ab00ae8999f8c4d8, type: 2}
+    materials:
+    - {fileID: 2100000, guid: f87f01182ffd15644888c835b693de79, type: 2}
+    - {fileID: 2100000, guid: 4f102ba4cea8d8b47beb887ad5525a4d, type: 2}
+    - {fileID: 2100000, guid: 28b7af6b8fbc7224e85e1f057f36960a, type: 2}
+    clipStates:
+    - idle_neutral
+    - impact_small
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - bark_positive
+    - inn_idle
+    - impact_buff
+    - victory
+    - impact_dodge
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - skill_a_antic
+    - skill_a_idle
+    - skill_b_antic
+    - skill_b_idle
+    - skill_c_antic
+    - skill_c_idle
+    - skill_d_antic
+    - skill_d_idle
+    - bark_negative
+    - impact_buff
+    - bark_meltdown
+    - skill_e_antic
+    - skill_d_idle 0
+    - skill_f_antic
+    - skill_d_idle 0 0
+    - skill_g_antic
+    - skill_g_idle
+    - inn_hire
+    - move_forward_recover
+    - move_forward_recover
+    - hero
+    - embark
+    - meltdown
+    - resolute
+    - relationship_test_positive
+    - relationship_test_negative
+  - displayName: "\u9003\u4EA1\u8005  (runaway)"
+    heroId: runaway
+    modelPrefab: {fileID: 919132149155446097, guid: 6104de5b2807955419bd9d073c36074c, type: 3}
+    controller: {fileID: 9100000, guid: ad998e36bf2e77f4bb0337c4af670a9b, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 84425a25a70c0ec4aa80761622c4db8d, type: 2}
+    - {fileID: 2100000, guid: 2548d79dc4a28c1499c3b494378fd65d, type: 2}
+    - {fileID: 2100000, guid: 55a7875bb3d208e42bd0c64282fd0e7a, type: 2}
+    clipStates:
+    - idle_neutral
+    - attack1_meleeA_backhand_idle
+    - throw_idle
+    - attack1_meleeA_backhand_antic
+    - throw_antic
+    - impact_small
+    - antic_attack_meleeB
+    - idle_attack_meleeB
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - inn_idle
+    - antic_buff_antic
+    - buff_idle
+    - victory
+    - impact_small
+    - impact_recover
+    - inn_item_antic
+    - inn_item_rollover_loop
+    - inn_item_recover
+    - stealth_antic
+    - stealth_idle
+    - throw_jump_antic
+    - throw_jump_idle
+    - attack_smoke_antic
+    - attack_smoke_idle
+    - light_match_antic
+    - light_match_idle
+    - impact_was_guarded
+    - impact_small
+    - impact_buff_friendly
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown 0
+    - resolute
+    - impact_small
+    - actout_caster
+    - embark
+    - impact_backstab
+  - displayName: "\u9EBB\u98CE\u75C5\u4EBA  (leper)"
+    heroId: leper
+    modelPrefab: {fileID: -927199367670048503, guid: 1155e4d449f8cc84199da101ae67d497, type: 3}
+    controller: {fileID: 9100000, guid: bf1455e17fe341840bc64589ffbd3ccf, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 9be132c6538c24e42bb5c66a55949d8f, type: 2}
+    - {fileID: 2100000, guid: 6f240acdd5799a0479a646a09e69ed24, type: 2}
+    clipStates:
+    - idle_neutral
+    - attack_chop_idle
+    - attack_slice_idle
+    - antic_attack_chop
+    - antic_attack_slice
+    - impact_small
+    - antic_attack_diagnal_slash
+    - attack_diagnal_slash_idle
+    - impact_recover
+    - move_forward
+    - move_forward
+    - deaths_door_idle
+    - deaths_door_antic
+    - move_forward 0
+    - move_forward 0
+    - inn_idle
+    - antic_meditate
+    - idle_meditate
+    - antic_attack_sword_high
+    - idle_sword_high
+    - victory
+    - antic_widestance
+    - widestance_idle
+    - impact_dodge
+    - impact_recover
+    - inn_item_antic
+    - inn_item_idle
+    - inn_item_recover
+    - impact_was_guarded
+    - impact_small
+    - impact_friendly
+    - victory_story
+    - relationship_test_positive
+    - relationship_test_negative
+    - hero
+    - meltdown
+    - resolute
+    - impact_small
+    - impact_friendly
+    - embark
+    - impact_backstab
+--- !u!4 &138971915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138971913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &231791265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231791267}
+  - component: {fileID: 231791266}
+  m_Layer: 0
+  m_Name: RimLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &231791266
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231791265}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.82, b: 0.62, a: 1}
+  m_Intensity: 0.9
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &231791267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231791265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.028251044, y: 0.96794367, z: 0.21458796, w: -0.12743223}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &771398370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771398372}
+  - component: {fileID: 771398371}
+  m_Layer: 0
+  m_Name: FillLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &771398371
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771398370}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.62, g: 0.72, b: 1, a: 1}
+  m_Intensity: 0.55
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &771398372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771398370}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.04464259, y: -0.93165344, z: 0.122654505, w: 0.33909413}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &842354054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842354058}
+  - component: {fileID: 842354057}
+  - component: {fileID: 842354056}
+  - component: {fileID: 842354055}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &842354055
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354054}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 960203955}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &842354056
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354054}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &842354057
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354054}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &842354058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354054}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 1, z: 4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &955125816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955125818}
+  - component: {fileID: 955125817}
+  m_Layer: 0
+  m_Name: KeyLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &955125817
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955125816}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.96, b: 0.9, a: 1}
+  m_Intensity: 1.3
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &955125818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955125816}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.36964384, y: 0.23911762, z: -0.09904577, w: 0.89239913}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &960203955
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.05
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.02, g: 0.02, b: 0.03, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+--- !u!1 &1089420540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089420543}
+  - component: {fileID: 1089420542}
+  - component: {fileID: 1089420541}
+  m_Layer: 0
+  m_Name: MainCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1089420541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089420540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed0d88d4f00e34498b4cf4a9850a923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  distance: 5
+  minDistance: 1.5
+  maxDistance: 12
+  yaw: 0
+  pitch: 12
+  rotateSpeed: 220
+  zoomSpeed: 1.2
+  panSpeed: 0.004
+  pivotOffset: {x: 0, y: 1, z: 0}
+--- !u!20 &1089420542
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089420540}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.03, g: 0.03, b: 0.04, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 1000
+  field of view: 35
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1089420543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089420540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 138971915}
+  - {fileID: 1089420543}
+  - {fileID: 842354058}
+  - {fileID: 955125818}
+  - {fileID: 771398372}
+  - {fileID: 231791267}

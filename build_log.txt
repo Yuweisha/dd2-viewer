@@ -1,0 +1,4 @@
+result: Succeeded
+size: 164 MB
+errors: 0
+out: C:\Users\Schwarz\Downloads\DD2Viewer5/DD2Viewer.exe
